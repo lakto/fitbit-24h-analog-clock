@@ -22,39 +22,29 @@
 
 .text {
   fill: white;
-  font-size: 24;
-  x: 0%-12;
+  font-size: 20;
+  x: 0%-10;
   y: -40%;
 }
 
-.left {
-  x: -40%;
+.status {
+  font-size: 24;
+  text-length: 6;
+  text-anchor: middle;
 }
 
-.right {
-  x: 33%;
-}
-
-.bottom {
-  y: 42%;
-}
-
-.top {
-  y: -38%;
-}
-
-.hrm {
+#heart-label {
   fill: red;
 }
 
-.pwr {
+#power-label {
   fill: yellow;
 }
 
-.steps {
+#steps-label {
   fill: green;
 }
 
-.day {
+#date-label {
   fill: grey;
 }
