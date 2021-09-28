@@ -1,0 +1,60 @@
+.marker {
+  fill: white;
+}
+
+.accentcolour {
+  fill: yellow;
+}
+
+.hour {
+  x: 0%-1;
+  y: -38%;
+  width: 2;
+  height: 12;
+}
+
+.quarter {
+  x: 0%-1;
+  y: -38%+10;
+  width: 2;
+  height: 2;
+}
+
+.text {
+  fill: white;
+  font-size: 24;
+  x: 0%-12;
+  y: -40%;
+}
+
+.left {
+  x: -40%;
+}
+
+.right {
+  x: 33%;
+}
+
+.bottom {
+  y: 42%;
+}
+
+.top {
+  y: -38%;
+}
+
+.hrm {
+  fill: red;
+}
+
+.pwr {
+  fill: yellow;
+}
+
+.steps {
+  fill: green;
+}
+
+.day {
+  fill: grey;
+}
