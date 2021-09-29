@@ -385,11 +385,11 @@
     <text id="steps-label" class="status" />
   </g>
   <!-- bottom left -->
-  <g transform="translate(50%,50%+12), rotate(45)">
+  <g transform="translate(50%,50%+6), rotate(45)">
     <text id="power-label" class="status" />
   </g>
   <!-- bottom right -->
-  <g transform="translate(50%,50%+12), rotate(-45)">
+  <g transform="translate(50%,50%+6), rotate(-45)">
     <text id="heart-label" class="status" />
   </g>
 
