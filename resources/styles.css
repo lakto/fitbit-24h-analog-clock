@@ -3,7 +3,7 @@
 }
 
 .accentcolour {
-  fill: yellow;
+  fill: #ffac33;
 }
 
 .hour {
@@ -34,17 +34,17 @@
 }
 
 #heart-label {
-  fill: red;
+  fill: #ff3952;
 }
 
 #power-label {
-  fill: yellow;
+  fill: #ffb442;
 }
 
 #steps-label {
-  fill: green;
+  fill: #18de41;
 }
 
 #date-label {
-  fill: grey;
+  fill: #33a7ff;
 }

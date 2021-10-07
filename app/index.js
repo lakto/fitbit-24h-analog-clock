@@ -79,7 +79,7 @@ const n = weekday[d.getDay()];
 dateLabel.text = n + " " + d.getDate();
 
 function displayPower() {
-   const powerSymbol = (battery.charging ? " ++" : "%");
+   const powerSymbol = (battery.charging ? " " + String.fromCharCode(0x026A1) : "%");
    powerLabel.text = Math.floor(battery.chargeLevel) + powerSymbol;
 }
 
