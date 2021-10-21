@@ -35,6 +35,7 @@ clock.ontick = (evt) => {
 
    displayPower();
    displaySteps();
+   displayDate();
 };
 
 // heart rate
@@ -58,7 +59,7 @@ if (HeartRateSensor) {
 
 }
 
-// update view of steps and power if display is on
+// update view if display turns on
 display.addEventListener("change", () => {
    if (display.on) {
       // update steps
@@ -66,6 +67,9 @@ display.addEventListener("change", () => {
 
       // update power
       displayPower();
+
+      // update date
+      displayDate();
    }
 });
 
@@ -73,10 +77,12 @@ charger.addEventListener("change", () => {
    displayPower();
 });
 
-// weekday and day
-const d = new Date();
-const n = weekday[d.getDay()];
-dateLabel.text = n + " " + d.getDate();
+function displayDate() {
+   // weekday and day
+   const d = new Date();
+   const n = weekday[d.getDay()];
+   dateLabel.text = n + " " + d.getDate();
+}
 
 function displayPower() {
    const powerSymbol = (battery.charging ? " " + String.fromCharCode(0x026A1) : "%");
